@@ -501,7 +501,6 @@ def api1(ids,names,passlist):
                     cps.append(uid)
                     break
             else:
-                continue
         loop+=1
     except requests.exceptions.ConnectionError:
         time.sleep(20)
